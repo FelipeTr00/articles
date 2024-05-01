@@ -46,14 +46,16 @@ h1 {
       .header-nav ul a:hover {
         color: #1ab7ff; }
 
-.article-title {
-  margin: 10px;
-  padding-top: 10px; }
-
-.paragraph {
-  font-family: Montserrat, Arial;
-  font-size: 18px;
-  text-align: justify;
-  margin: 10px; }
+.main {
+  width: 70%;
+  margin: 0 auto; }
+  .main .article .article-title {
+    margin: 10px;
+    padding-top: 10px; }
+  .main .article .paragraph {
+    font-family: Montserrat, Arial;
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px; }
 
 /*# sourceMappingURL=style.css.map */

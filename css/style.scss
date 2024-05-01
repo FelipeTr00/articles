@@ -66,14 +66,19 @@ h1 {
     }
 }
 
-.article-title {
-    margin: $margin;
-    padding-top: $margin;
-}
-
-.paragraph {
-    font-family: $font2;
-    font-size: 18px;
-    text-align: justify;
-    margin: $margin;
+.main {
+    width: 70%;
+    margin: 0 auto;
+    .article {
+        .article-title {
+            margin: $margin;
+            padding-top: $margin;
+        }
+    .paragraph {
+        font-family: $font2;
+        font-size: 18px;
+        text-align: justify;
+        margin: $margin;
+        }
+    }
 }
