@@ -46,8 +46,9 @@ h1 {
       .header-nav ul a:hover {
         color: #1ab7ff; }
 
-.title-article {
-  margin: 10px; }
+.article-title {
+  margin: 10px;
+  padding-top: 10px; }
 
 .paragraph {
   font-family: Montserrat, Arial;
