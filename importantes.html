@@ -19,56 +19,46 @@
 
 </head>
 <body>
-    <header class="header">
-        <div class="header-top">
-            <h1 class="header-title">Econometria Brasil</h1>
-            <img src="images/logo.png" alt="Logo" class="header-logo">
-        </div>
-        <nav class="header-nav">
-            <ul>
-                <li class="current-page"><a href="index.html" title="Home">Início</a></li>
-                <li><a href="articles.html" title="Artigos">Artigos</a></li>
-                <li><a href="importantes.html" title="Links e Dicas">Links e Dicas</a></li>
-                <li><a href="contato.html" title="Contato">Contato</a></li>
-            </ul>
-        </nav>
+        <header class="header">
+            <div class="header-top">
+                <h1 class="header-title">Econometria Brasil</h1>
+                <img src="images/logo.png" alt="Logo" class="header-logo">
+            </div>
+            <nav class="header-nav">
+                
+                <ul>
+                    <li><a href="index.html" title="Home">Início</a></li>
+                    <li><a href="articles.html" title="Artigos">Artigos</a></li>
+                    <li><a href="importantes.html" title="Links e Dicas">Links e Dicas</a></li>
+                    <li><a href="contato.html" title="Contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
     </header>
 
     <main class="main">
     <div class="article">
-        <h2 class="article-title">ARTIGO 1</h2>
+        <div class="article">
+            <h2 class="article-title">R - <i class="fab fa-r-project"></i></h2>
+
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aut eos culpa non, perspiciatis corrupti excepturi ducimus ipsam necessitatibus vel sint? Libero, repellat. Voluptatem reprehenderit, labore dignissimos at tenetur repellat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aut eos culpa non, perspiciatis corrupti excepturi ducimus ipsam necessitatibus vel sint? Libero, repellat. Voluptatem reprehenderit, labore dignissimos at tenetur repellat.</p>
+        </div>
+    </div>
+    <div class="article">
+        <h2 class="article-title">PYTHON - <i class="fa-brands fa-python"></i></h2>
         <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aut eos culpa non, perspiciatis corrupti excepturi ducimus ipsam necessitatibus vel sint? Libero, repellat. Voluptatem reprehenderit, labore dignissimos at tenetur repellat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aut eos culpa non, perspiciatis corrupti excepturi ducimus ipsam necessitatibus vel sint? Libero, repellat. Voluptatem reprehenderit, labore dignissimos at tenetur repellat.</p>
     </div>
     <div class="article">
-        <h2 class="article-title">ARTIGO 2</h2>
+        <h2 class="article-title">SQL - <i class="fa-solid fa-database"></i></h2>
         <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aut eos culpa non, perspiciatis corrupti excepturi ducimus ipsam necessitatibus vel sint? Libero, repellat. Voluptatem reprehenderit, labore dignissimos at tenetur repellat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aut eos culpa non, perspiciatis corrupti excepturi ducimus ipsam necessitatibus vel sint? Libero, repellat. Voluptatem reprehenderit, labore dignissimos at tenetur repellat.</p>
     </div>
     <div class="article">
-        <h2 class="article-title">ARTIGO 2</h2>
+        <h2 class="article-title">EXCEL - <i class="fa-solid fa-file-excel"></i></h2>
         <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aut eos culpa non, perspiciatis corrupti excepturi ducimus ipsam necessitatibus vel sint? Libero, repellat. Voluptatem reprehenderit, labore dignissimos at tenetur repellat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, aut eos culpa non, perspiciatis corrupti excepturi ducimus ipsam necessitatibus vel sint? Libero, repellat. Voluptatem reprehenderit, labore dignissimos at tenetur repellat.</p>
     </div>
     </main>
-
-
-
 </body>
 
-<script>
-    <script src="https://kit.fontawesome.com/e8927ca629.js" crossorigin="anonymous"></script>
-</script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const currentLocation = window.location.pathname;
-        const navLinks = document.querySelectorAll(".header-nav a");
-        
-        navLinks.forEach(function(link) {
-            if (link.getAttribute("href") === currentLocation) {
-                link.parentElement.classList.add("current-page");
-            }
-        });
-    });
-</script>
-
+<script src="https://kit.fontawesome.com/e8927ca629.js" crossorigin="anonymous"></script>
 
 </html>
